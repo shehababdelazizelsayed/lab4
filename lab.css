@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.ul{
+    background-color: black;
+    text-decoration: none;
+    height: 50px;
+    position: sticky;
+    margin-bottom: 60px;
+     
+
+}
+li{
+    color: white;
+    display: inline-block;
+
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    
+}
+
+a:hover{
+    color: green;
+}
+
+/*text over a picture*/
+
+.cont{
+    position: relative;
+    text-align: center;
+}
+.texto{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: red;
+}
+
+.cont1{
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.text1{
+    position: relative;
+    z-index: 1;
+    background-color:  rgba(0, 0, 0, 0.4);
+    bottom: 100px;
+    
+    
+}
+
+/*pictures*/
+
+.image{
+    
+  box-sizing: border-box;
+  width: 100%;
+  float: right;
+
+
+}
+.face1{
+    display: inline-block;
+    text-align: center;
+    border: 3px solid;
+    background-color: grey;
+}
+
+.face{
+    
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-bottom: 50px;
+    
+}
+
+.gmail1{
+    display: inline-block;
+    text-align: center;
+    border: 3px solid;
+    background-color: grey;
+    height: 100%;
+    margin-bottom: 50px;
+}
+.gmail{
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-bottom: 50px;
+}
+.linked1{
+    display: inline-block;
+    text-align: center;
+    border: 3px solid;
+    background-color: grey;
+}
+.linked{
+    
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-bottom: 50px;
+}
+
+
+/*drop down menu*/
+.dropmenu {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding: 30px;
+    margin-left: 400px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    z-index: 1;
+    border: 2px solid red;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+}
+
+.dropdown-content a:hover {
+
+    background-color: red;
+    padding-left: 20px;
+}
+
+
+.dropmenu:hover .dropdown-content {
+    display: block;
+}
+
