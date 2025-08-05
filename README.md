@@ -1,2 +1,2 @@
-![Screenshot](/screens/1)
-![Screenshot](/screens/2)
+![Screenshot](./screens/1)
+![Screenshot](./screens/2)
